@@ -1,0 +1,137 @@
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.cb {
+	clear: both;
+}
+
+
+.content-login {
+	width: 600px;
+	margin: 100px auto;
+    background: #ececec;
+    padding: 50px;
+}
+.form-input {
+	margin-bottom: 10px;
+}
+.form-input input[type="text"], .form-input input[type="password"] {
+    padding: 5px 10px;
+    width: 200px;
+}
+.btn {
+	font-size: 16px;
+}
+.form-alert {
+    background: #F00;
+    width: 200px;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+.block-users, .block-test {
+	padding: 20px;
+}
+.table-users, .table-test {
+	margin-bottom: 20px;
+}
+.control-test {
+	margin-bottom: 20px;
+}
+.input-block {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#form-question {
+	border: 1px solid #CCC;
+	padding: 10px;
+}
+#form-question div{
+	margin-bottom: 10px;
+}
+.form-question-name, .form-question-type, .form-question-ans {
+	width: 100px;
+}
+.q-answer-correct {
+	margin-right: 10px;
+}
+.question {
+	border: 1px solid #CCC;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.question-content {
+	padding: 20px 40px;
+}
+.switch-wrapper {
+	display: inline-block;
+	position: relative;
+	top: 3px;
+}
+.form-status {
+	display: none;
+    background: #1ec121;
+    padding: 19px 0 8px 36px;
+    margin: 0 0 1px;
+}
+
+.form-status h1 {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 8px;
+    color: #fff;
+}
+.form-status p {
+    font-size: 14px;
+    margin: 0 0 8px;
+    color: #fff;
+}
+.delete_test {
+	cursor: pointer;
+}
+.question-img {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.tests h1 {
+	margin-left: 20px;
+}
+.tests table {
+	margin-left: 20px;
+}
+.user_test_content {
+	margin-left: 20px;
+}
+.user_test_content h1 {
+	font-size: 26px;
+}
+.score {
+	padding: 20px 0px;
+}
+.final-score {
+	color: #F00;
+	font-size: 20px;	
+}
+p.btn-back {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.answer_img {
+	max-width 345px;
+	max-height: 345px
+}
+
+.reset_pw {
+	cursor: pointer;
+}

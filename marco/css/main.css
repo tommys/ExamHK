@@ -1,0 +1,265 @@
+body {
+	color: #f9f9f9;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    line-height: 22px;
+    font-size: 12px;
+	letter-spacing: 2px;	
+}
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+	font-size: 0;
+	visibility: hidden;
+}
+.clearfix {
+	display: block;
+}
+.alignCenter {
+	margin: 0 auto;
+}
+.fl { float: left !important; }
+.fr { float: right !important; }
+.mt10 {margin-top: 10px!important;}
+.mt30 {margin-top: 30px!important;}
+.mt70 {margin-top: 70px!important;}
+.mr20 {margin-right: 20px!important;}
+.mb10 {margin-bottom: 20px!important;}
+.mb20 {margin-bottom: 20px!important;}
+.mb40 {margin-bottom: 40px!important;}
+.widthP80 {width: 80%!important;}
+#menu {
+	height: 10%;
+	min-height: 70px;
+	/*box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);*/
+	border-bottom: 2px solid #CCC;
+	text-align: center;
+	vertical-align: middle;	
+}
+#menu ul {
+	width: 60%;
+	margin: 0 auto;
+}
+#menu li {
+	width: 24%;
+	margin: 12px 0 0 0;
+	vertical-align: top;
+	background: none;
+}
+#menu li:hover{
+	background: none;
+}
+#menu li.active {
+	background: none;
+}
+#menu li.active a, #menu li a {
+	color: #939393;
+}
+.logo {
+	background: #fff;
+	height: 50%;
+}
+.logo img {
+	margin-top: 8%;
+}
+.logoDesc {
+	height: 50%;
+	color: #606060;
+}
+.mainTitle {
+	padding-top: 20px;
+	font-size: 2em;
+	color: #000;
+}
+.mainTitle.desc{
+	font-size: 1.5em;
+}
+.logoDesc img {
+	margin-top: 30px;
+	max-width: 100px;
+}
+.fp-slidesNav {
+    right: 2%;
+    left: inherit;	
+	top:50%;
+}
+.fp-slidesNav ul li {
+    display: block;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background: #e8e8e8;
+    height: 6px;
+    width: 6px;	
+}
+#fp-nav ul li a.active span,
+ .fp-slidesNav ul li a.active span, 
+ #fp-nav ul li:hover a.active span, 
+ .fp-slidesNav ul li:hover a.active span {
+    height: 6px;
+    width: 6px;
+    margin: -2px 0 0 -2px;
+	background: #333;
+}
+.slide {
+	margin-top: 30px;
+}
+.slide .intro {
+	width: 84%;
+	margin: 0 auto;
+}
+.slide .desc {
+    width: 26%;
+	color: #939393;
+}
+.slide .apps img {
+    max-height: 50px;
+}
+#fp-nav ul li:hover a span, 
+.fp-slidesNav ul li:hover a span {
+	width: 6px;
+    height: 6px;	
+    margin: -2px 0px 0px -2px;
+}
+.aboutUs .info {
+	border-top: 1px #f9f9f9 solid;
+	padding: 20px;
+}
+.aboutUs .info:last-child {
+	border-bottom: 1px #f9f9f9 solid;
+}
+.aboutUs .info .infoDetail {
+	width: 75%;
+}
+.aboutUs .info .infoDetail .infoTitle,
+.aboutUs .info .infoDetail .infoDesc {
+	width: 50%;
+	text-align: left;
+	color: #6f6e6e;
+}
+.aboutUs .info .infoDetail .infoDesc {
+	width: 50%;
+}
+.aboutUs .info .infoDetail .infoTitle {
+	font-weight: bold;
+	color: #000;
+}
+.maps-frame {
+    height: 400px;
+    width: 100%;
+	margin: 0 auto;
+}
+.map {
+	color: #6f6e6e;
+}
+.map .desc {
+	font-size: 18px;
+	margin-top: 30px;
+}
+.map .button {
+    padding: 10px;
+    border: 3px #6f6e6e solid;
+    width: 210px;
+    margin: 30px auto;
+	font-size: 18px;
+}
+.logoBottom img {
+	width: 110px;
+	margin-top: 50px;
+}
+.slide .imgList .content {
+	margin-left: 16%;
+}
+.slide .imgList .item {
+	width: 25%;
+	float: left;
+}
+.slide .imgList .item img {
+	max-width: 200px;
+}
+.slide .imgList img.icon {
+    margin-top: 30%;	
+	max-width: 120px;
+}
+@media only screen and (max-device-width: 480px) {
+	#menu ul {
+		width: 100%;
+	}
+	.logo img {
+		margin-top: 30%;
+		max-width: 250px;
+	}
+	/* 
+img {
+		width: 100%;
+	}
+ */
+	.slide .desc {
+		width: 100%;
+	}
+	#menu li a, #menu li.active a {
+	    padding: 15% 2%;	
+	}
+	.slide .apps img {
+		max-width: 120px;
+	}
+	.aboutUs .info .infoDetail {
+		width: 100%;
+	}
+	.aboutUs .info {
+		padding: 10px;
+	}	
+	.slide .imgList .item {
+		width: 100%;
+		float: left;
+	}
+	.slide .imgList .item img {
+		width: 40%;
+	}
+	.slide .imgList .icon {
+		margin-top: 0;
+	    width: 80px;
+		margin-left: 10%;	
+	}
+	.slide .imgList .content {
+		margin: 0;
+	}
+	.slide .imgList img.icon {
+		margin-top: 5px;
+		max-width: 80px;
+	}
+}
+
+
+#header {
+	background-color: #fff;
+}
+#menu {
+	min-height: 170px;
+	height: 365px;
+	background-color: #fff;
+}
+.menuLogo {
+	margin: 70px auto;
+    width: 500px;
+    text-align: center;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
